@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: 'Changa', sans-serif;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(47, 47, 51) 67%, rgb(69, 70, 56) 73%, rgb(90, 97, 69) 100%);
 
@@ -53,6 +54,7 @@ header {
     padding: 15px;
     text-decoration: none;
     color: rgb(234, 238, 21);
+    
 }
 
 .links li a:hover {
@@ -79,6 +81,7 @@ header {
 .introduction p {
     padding: 5px;
     text-align: center;
+    font-family: 'Bungee Spice', cursive;
 }
 
 .name {
@@ -160,7 +163,13 @@ header {
     bottom: 60px;
 }
 
-.cs-notes a {
+.btn{
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+
+.btn a {
     font-size: 15px;
     border-radius: 10px;
     text-decoration: none;
@@ -172,7 +181,7 @@ header {
 
 }
 
-.cs-notes a:hover {
+.btn a:hover {
     color: rgb(19, 18, 18);
     background-color: rgb(230, 226, 30);
 }
