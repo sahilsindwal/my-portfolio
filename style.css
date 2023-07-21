@@ -117,32 +117,33 @@ header {
 
 .projects {
     position: relative;
-    top: 150px;
+    top: 130px;
     color: aliceblue;
     height: max-content;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 
 }
 
 .projects h2 {
+    text-align: center;
     padding: 10p;
     text-align: center;
     color: rgb(230, 226, 30);
-    width: max-content;
 }
 
 .art {
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .cs-notes {
-    box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 1px 5px 1px rgb(252, 243, 116);
     margin: 10px;
     height: 60vh;
     width: 20vw;
