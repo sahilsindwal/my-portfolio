@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-   
+
 }
 
 body {
@@ -54,7 +54,7 @@ header {
     padding: 15px;
     text-decoration: none;
     color: rgb(234, 238, 21);
-    
+
 }
 
 .links li a:hover {
@@ -64,6 +64,8 @@ header {
     transition: 1s;
 }
 
+/* //////////////My introduction code start here///////////  */
+
 .my-intro {
     height: max-content;
     display: flex;
@@ -72,11 +74,11 @@ header {
     flex-wrap: wrap;
 }
 
-.dp{
+.dp {
     box-shadow: 4px 5px 20px 2px rgb(70, 69, 60);
     width: 200px;
     height: 200px;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
 .introduction {
@@ -96,6 +98,10 @@ header {
     font-size: 48px;
     color: rgb(234, 238, 21);
 }
+/* //////////////My introduction code End here///////////  */
+
+
+/* //////////////My Current skills code start here///////////  */
 
 .skills {
     width: max-content;
@@ -122,57 +128,11 @@ header {
     padding: 6px;
     color: rgb(230, 226, 30);
 }
-
-.projects {
-    position: relative;
-    top: 130px;
-    color: aliceblue;
-    height: max-content;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-}
-
-.projects h2 {
-    text-align: center;
-    padding: 10p;
-    text-align: center;
-    color: rgb(230, 226, 30);
-}
-
-.art {
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.cs-notes {
-    border-radius: 20px;
-    padding: 10px;
-    box-shadow: 2px 1px 5px 1px rgb(252, 243, 116);
-    margin: 10px;
-    height: 60vh;
-    width: 20vw;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* //////////////My Current skills code End here///////////  */
 
 
-}
-
-.cs-notes p {
-    text-align: center;
-    font-size: 20px;
-    line-height: 50pxpx;
-    position: relative;
-    bottom: 60px;
-}
-
-.btn{
+/* //////////////button code start here///////////  */
+.btn {
     position: relative;
     top: 35px;
     text-align: center;
@@ -185,7 +145,6 @@ header {
     padding: 15px;
     margin: 5px;
     color: aliceblue;
-    /* border: 2px solid rgb(230, 226, 30) ; */
     box-shadow: 0.1px 0.1px 5px 0.2px rgb(230, 226, 30);
 
 }
@@ -195,3 +154,4 @@ header {
     background-color: rgb(230, 226, 30);
 }
 
+/* //////////////button code End here///////////  */
