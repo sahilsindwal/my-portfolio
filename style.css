@@ -26,7 +26,7 @@ header {
 }
 
 .logo h3 {
-    color: aliceblue;
+    color: rgb(234, 238, 21);
 }
 
 .top-img {
@@ -98,6 +98,7 @@ header {
     font-size: 48px;
     color: rgb(234, 238, 21);
 }
+
 /* //////////////My introduction code End here///////////  */
 
 
@@ -128,6 +129,7 @@ header {
     padding: 6px;
     color: rgb(230, 226, 30);
 }
+
 /* //////////////My Current skills code End here///////////  */
 
 
@@ -139,14 +141,19 @@ header {
 }
 
 .btn a {
-    font-size: 15px;
+    font-size: 1.4rem;
     border-radius: 10px;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     margin: 5px;
     color: aliceblue;
     box-shadow: 0.1px 0.1px 5px 0.2px rgb(230, 226, 30);
 
+}
+
+#active {
+    background-color: rgb(230, 226, 30);
+    color: black;
 }
 
 .btn a:hover {
@@ -163,7 +170,7 @@ footer {
     top: 200px;
     background-color: rgb(69, 70, 56) 73%;
     font-family: sans-serif;
-    box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);  
+    box-shadow: 2px 1px 5px 1px rgb(15, 15, 15);
 
 }
 
@@ -178,9 +185,9 @@ footer {
 
 }
 
-.quick h3:hover{
+.quick h3:hover {
     color: rgb(167, 154, 37);
-} 
+}
 
 .quick ul {
     display: flex;
